@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?mgdqi2");
+  src: url("fonts/icomoon.eot?mgdqi2#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?mgdqi2") format("truetype"),
+    url("fonts/icomoon.woff?mgdqi2") format("woff"),
+    url("fonts/icomoon.svg?mgdqi2#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-months_to_6_years:before {
+  content: "\e900";
+}
+.icon-to22kg:before {
+  content: "\e901";
+}
+.icon-to_28_mm:before {
+  content: "\e902";
+}
+.icon-to_175mm:before {
+  content: "\e903";
+}
+.icon-affordable_price:before {
+  content: "\e904";
+}
+.icon-camera:before {
+  content: "\e905";
+}
+.icon-click_and_co:before {
+  content: "\e906";
+}
+.icon-create_your_own:before {
+  content: "\e907";
+}
+.icon-creditcard:before {
+  content: "\e908";
+}
+.icon-dutch_design:before {
+  content: "\e909";
+}
+.icon-e-bike_fitting:before {
+  content: "\e90a";
+}
+.icon-keyboard:before {
+  content: "\e90b";
+}
+.icon-map-marker:before {
+  content: "\e90c";
+}
+.icon-mounting_parts_incl_1:before {
+  content: "\e90d";
+}
+.icon-mounting_parts_incl_2:before {
+  content: "\e90e";
+}
+.icon-news:before {
+  content: "\e90f";
+}
+.icon-no_5_incl:before,
+.icon-no-5-incl:before {
+  content: "\e910";
+}
+.icon-numeric_code_lock_incl:before {
+  content: "\e911";
+}
+.icon-question:before {
+  content: "\e912";
+}
+.icon-returns:before {
+  content: "\e913";
+}
+.icon-safe_1:before {
+  content: "\e914";
+}
+.icon-safe_2:before {
+  content: "\e915";
+}
+.icon-share:before {
+  content: "\e916";
+}
+.icon-technology_from_japan:before {
+  content: "\e917";
+}
+.icon-truck:before {
+  content: "\e918";
+}
+.icon-urban_iki:before {
+  content: "\e919";
+}
+.icon-warranty_and_service:before {
+  content: "\e91a";
+}
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+  outline: none;
+}
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+  border: 4px solid white;
+}
+.lightbox a img {
+  border: none;
+}
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: white;
+}
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(//www.urbaniki.com/wp-content/themes/urbaniki/assets/images/loading.gif)
+    no-repeat;
+}
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+.lb-container > .nav {
+  left: 0;
+}
+.lb-nav a {
+  outline: none;
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+}
+.lb-prev,
+.lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(//www.urbaniki.com/wp-content/themes/urbaniki/assets/images/prev.png)
+    left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(//www.urbaniki.com/wp-content/themes/urbaniki/assets/images/next.png)
+    right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+.lb-data .lb-caption a {
+  color: #4ae;
+}
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(//www.urbaniki.com/wp-content/themes/urbaniki/assets/images/close.png)
+    top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
